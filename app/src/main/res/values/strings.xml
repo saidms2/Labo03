@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Labo03</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Se connecter</string>
+    <string name="register">S\'inscrire</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="register_title">Inscription</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="telephone">Téléphone</string>
+    <string name="identifiant">Entrez l\'identifiant</string>
+    <string name="modifTelephone">Entrer le nouveau numéro de téléphone</string>
+
+</resources>

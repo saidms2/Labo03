@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.labo03.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnInsererData"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/btnListerData"
+        android:layout_alignLeft="@+id/btnListerData"
+        android:layout_alignStart="@+id/btnListerData"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Inserer" />
+
+    <Button
+        android:id="@+id/btnListerData"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/btnChercher"
+        android:layout_alignLeft="@+id/btnChercher"
+        android:layout_alignStart="@+id/btnChercher"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Lister" />
+
+    <Button
+        android:id="@+id/btnChercher"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/btnEffacer"
+        android:layout_alignLeft="@+id/btnEffacer"
+        android:layout_alignStart="@+id/btnEffacer"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Chercher" />
+
+    <Button
+        android:id="@+id/btnEffacer"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/btnModifier"
+        android:layout_alignLeft="@+id/btnModifier"
+        android:layout_alignStart="@+id/btnModifier"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/roundedbutton"
+
+        android:text="Effacer" />
+
+    <Button
+        android:id="@+id/btnModifier"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="195dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Modifier" />
+
+</RelativeLayout>
